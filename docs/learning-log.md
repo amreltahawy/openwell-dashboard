@@ -40,3 +40,9 @@ I still don’t fully understand what a devcontainer does, but I know it sets up
 | Sprint 7 | Add monitoring and finish dashboard |
 
 ---
+### 🧠 How this connects to my project:
+
+- I will use a simple supervised model (e.g. Prophet or XGBoost) for production forecasting.
+- The ML model will be trained on synthetic CSV data and deployed to Azure ML.
+- The FastAPI backend will call the ML endpoint, and the React frontend will display the result.
+- My learning helps me understand how that model makes predictions and what “good” accuracy means.
